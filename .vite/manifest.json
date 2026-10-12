@@ -1,0 +1,70 @@
+{
+  "_framework-BDIqUko0.js": {
+    "file": "Creator-Studio-Web/_next/static/chunks/framework-BDIqUko0.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-Bh6FmsGt.js"
+    ]
+  },
+  "_rolldown-runtime-Bh6FmsGt.js": {
+    "file": "Creator-Studio-Web/_next/static/chunks/rolldown-runtime-Bh6FmsGt.js",
+    "name": "rolldown-runtime"
+  },
+  "app/studio-v6.tsx": {
+    "file": "Creator-Studio-Web/_next/static/chunks/studio-v6-2UxhQAbF.js",
+    "name": "studio-v6",
+    "src": "app/studio-v6.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh6FmsGt.js",
+      "_framework-BDIqUko0.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
+    "file": "Creator-Studio-Web/_next/static/chunks/app-route-prefetch-policy-W_yt-mMY.js",
+    "name": "app-route-prefetch-policy",
+    "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "Creator-Studio-Web/_next/static/chunks/layout-segment-context-CTzuyDNT.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh6FmsGt.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BDIqUko0.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/streamed-icons.js": {
+    "file": "Creator-Studio-Web/_next/static/chunks/streamed-icons-B-nchhzU.js",
+    "name": "streamed-icons",
+    "src": "node_modules/vinext/dist/shims/streamed-icons.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh6FmsGt.js",
+      "_framework-BDIqUko0.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "Creator-Studio-Web/_next/static/chunks/index-CC-5aBer.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh6FmsGt.js",
+      "_framework-BDIqUko0.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
+      "virtual:vinext-app-browser-entry",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/studio-v6.tsx",
+      "node_modules/vinext/dist/shims/streamed-icons.js"
+    ]
+  }
+}
